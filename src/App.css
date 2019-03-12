@@ -1,0 +1,45 @@
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*
+    The effect can be changed to scroll if you switch the
+    value of the CSS property below to "scroll"
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("./imgs/White_Benz.jpg");
+  min-height: 600px;
+}
+
+.pimg2 {
+  background-image: url("./imgs/Nice_Car.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("./imgs/wheelz.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #666;
+}
